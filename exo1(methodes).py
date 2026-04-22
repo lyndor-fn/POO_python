@@ -1,9 +1,9 @@
 class Point3D:
     # Attributs de classe
     Npts = 0
-    Mx = float('-inf')
-    My = float('-inf')
-    Mz = float('-inf')
+    Mx = 0
+    My = 0
+    Mz = 0
 
     def __init__(self, x, y, z):
         # Attributs d'instance privés
