@@ -1,0 +1,11 @@
+texte= "Institut Supérieur d'Informatique ISI 2025"
+print(texte[0:8])
+print(texte[9:18])
+print(texte[0::5])
+print(texte[::-1])
+print(texte[38:42])
+print(texte[19:22])
+print(texte[0::2])
+print(texte[9:18][::-1])
+print(texte[0::4])
+print(texte[34::2])

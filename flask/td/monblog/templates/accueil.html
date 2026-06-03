@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block titre %}Accueil — MonBlog{% endblock %}
+
+{% block contenu %}
+<h2>Derniers articles</h2>
+{% for article in articles %}
+    {% include "_carte_article.html" %}
+{% else %}
+    <p>Aucun article disponible.</p>
+{% endfor %}
+{% endblock %}
